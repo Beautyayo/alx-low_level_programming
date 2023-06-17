@@ -3,14 +3,15 @@
 #include <time.h>
 
 /**
- * main a program that assign a random number to the variable n each time it is executed.
- * To print whether the number stored in the variable n is positive or negative.
+ * main - A program that assign a random number to the variable n.
+ * Print n positive or negative.
  * Return: Always 0
  */
 
 int main(void)
 {
-	int n;
+	int n
+		;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
