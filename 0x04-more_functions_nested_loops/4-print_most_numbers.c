@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints 01356789
+ * print_most_numbers -print 01356789
  * Return: void
  */
 
-void prrint_most_numbers(void)
+void print_most_numbers(void)
 {
 	char c;
 
@@ -15,6 +15,6 @@ void prrint_most_numbers(void)
 		{
 			_putchar(c);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
