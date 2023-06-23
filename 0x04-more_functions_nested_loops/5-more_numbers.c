@@ -9,7 +9,7 @@ void print_most_numbers(void)
 {
         int x, y;
 
-        for (x = 0; x < 14; X++)
+        for (x = 0; x < 14; x++)
         {
                 for (y = 0; y <= 14; y++)
                 {
