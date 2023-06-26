@@ -1,5 +1,3 @@
-8-print_array.c
-
 #include "main.h"
 
 /**
