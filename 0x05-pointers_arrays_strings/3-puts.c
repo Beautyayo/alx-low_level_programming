@@ -4,10 +4,9 @@
  * _puts - prints a string
  * Followed by a new line
  * @str: string to print
- * Return: 0
  */
 
-viod _puts(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
